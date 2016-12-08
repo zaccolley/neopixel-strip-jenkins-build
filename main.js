@@ -58,7 +58,7 @@ function setStateBuilding(data, strip) {
 
   for (var i = 0; i < pixelAmount; i++) {
     var a = pixelAmount / 2;
-    var b = (percentComplete * a) + 1;
+    var b = (Math.min(percentComplete, 0.9) * a) + 1;
     var c = Math.floor(pixelAmount / b);
 
     var pixelPos = pixelAmount - 1 - i;

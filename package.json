@@ -1,0 +1,12 @@
+{
+  "name": "neopixel-strip-jenkins-build",
+  "version": "1.0.0",
+  "description": "see your jenkins build progress on a neopixel strip",
+  "main": "main.js",
+  "author": "Zac Colley",
+  "dependencies": {
+    "johnny-five": "^0.10.6",
+    "node-pixel": "^0.8.2",
+    "request": "^2.79.0"
+  }
+}

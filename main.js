@@ -64,20 +64,20 @@ function setStateBuilding(data, strip) {
     var pixelPos = pixelAmount - 1 - i;
 
     if (i % c === 0) {
-      var colour = 255 - Math.floor(255 * percentComplete);
-      strip.pixel(pixelPos).color([colour, 50, colour]);
+      strip.pixel(pixelPos).color([50, 0, 50]);
     } else {
+      // clear the pixel
       strip.pixel(pixelPos).color([0, 0, 0]);
     }
   }
 }
 
 function setStateSuccess(strip) {
-  strip.color([0, 50, 0]);
+  strip.color([0, 0, 50]);
 }
 
 function setStateOther(strip) {
-  strip.color([200, 100, 255]);
+  strip.color([100, 0, 0]);
 }
 
 function checkStatus(strip) {

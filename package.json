@@ -6,7 +6,7 @@
   "author": "Zac Colley",
   "dependencies": {
     "johnny-five": "^0.10.6",
-    "node-pixel": "^0.8.2",
+    "node-pixel": "^0.9.1",
     "request": "^2.79.0"
   }
 }

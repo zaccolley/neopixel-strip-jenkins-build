@@ -1,5 +1,7 @@
 # neopixel strip jenkins build
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zaccolley/neopixel-strip-jenkins-build.svg)](https://greenkeeper.io/)
+
 see your jenkins build progress on a neopixel strip
 
 ## requires

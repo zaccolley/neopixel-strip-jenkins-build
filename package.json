@@ -5,6 +5,7 @@
   "main": "main.js",
   "author": "Zac Colley",
   "dependencies": {
+    "dotenv": "^4.0.0",
     "johnny-five": "^0.10.6",
     "node-pixel": "^0.8.2",
     "request": "^2.79.0"

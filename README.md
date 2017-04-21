@@ -6,6 +6,12 @@ see your jenkins build progress on a neopixel strip
 
 1. neopixel strip
 2. some kind of serial device to send data to it (ive been using a Arduinno)
+3. upload node pixels firmata
+
+```bash
+npm install -g nodebots-interchange
+interchange install git+https://github.com/ajfisher/node-pixel -a uno --firmata
+```
 
 ## install
 
@@ -15,4 +21,6 @@ see your jenkins build progress on a neopixel strip
 
 ## run
 
-`node main.js`
+```bash
+node main.js
+```
